@@ -44,6 +44,7 @@ attr_accessor :cash_register, :total, :cash_register_with_discount, :last_transa
 
   def void_last_transaction
     @total - @last_transaction
+    binding.pry
     @total 
   end
 
